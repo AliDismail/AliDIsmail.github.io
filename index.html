@@ -1,0 +1,915 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Aspiring Mechatronics and Robotics Engineer | Senior Mechatronics Engineering Student at LAU"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS - Insert link for icons ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ali D Ismail | Aspiring Mechatronics & Robotics Engineer</title>
+  </head>
+  <body>
+    <!--==================== HEADER & NAV ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="/index.html" class="nav__logo">Ali D Ismail</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#experience" class="nav__link">Experience</a>
+            </li>
+
+            <li>
+              <a href="#education" class="nav__link">
+                Education & Certification
+              </a>
+            </li>
+
+            <li>
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__contact">Contact me</a>
+            </li>
+          </ul>
+
+          <!-- Close -->
+          <button class="nav__close" id="nav-close" aria-label="Close menu">
+            <i class="ri-close-large-line"></i>
+          </button>
+        </div>
+
+        <!-- Toggle -->
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!-- CUSTOM CURSOR -->
+      <div class="cursor"></div>
+
+      <!--==================== HOME SECTION ====================-->
+      <section class="home section" id="home">
+        <div class="blob-small"></div>
+        <div class="blob-small"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">Greetings! I'm Ali D Ismail &</h3>
+
+            <h1 class="home__title">
+              I am Passionate About: <br />
+              <span id="home-typed"></span>
+            </h1>
+
+            <p class="home__description">
+              I design, build and program robotic systems, from mechanical
+              structure to embedded control, turning ideas into working
+              hardware.
+            </p>
+          </div>
+
+          <div class="home__images">
+            <div class="home__box-1"></div>
+            <div class="home__box-2"></div>
+            <div class="home__box-3"></div>
+
+            <img
+              src="assets/img/home-img.png"
+              alt="Digital professional portrait"
+              class="home__img"
+            />
+
+            <div class="home__circle">
+              <span class="home__text" id="home-text"
+                >EXPLORE - MORE - LET'S -</span
+              >
+
+              <a href="#about" class="home__arrow">
+                <i class="ri-arrow-down-line"></i>
+              </a>
+            </div>
+
+            <div class="blob-big"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT SECTION ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="about__title">
+            I am an ambitious Mechatronics Engineering student with a robust
+            foundation in robotics, programming, and problem-solving, driven to
+            excel in Robotics and Mechatronics systems.
+          </h2>
+          <div class="about__info">
+            <p class="about__description">
+              Two-time international robotics competition winner and robotics
+              instructor with hands-on experience in embedded systems, control
+              systems, and robot design. Check out my projects below and contact
+              me to collaborate or for any inquiries.
+            </p>
+
+            <a href="#contact" class="about__button button">
+              <span>Contact Me</span>
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS SECTION ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">View My <span>Projects</span></h2>
+
+        <div class="projects__container container grid">
+          <div class="projects__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="projects__card swiper-slide">
+                <a
+                  href="https://github.com/AliDismail/FrameLock"
+                  target="_blank"
+                  class="projects__link"
+                >
+                  <img
+                    src="assets/img/work-img-1.png"
+                    alt="Portfolio project preview"
+                    class="projects__img"
+                  />
+
+                  <div class="projects__arrow">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </a>
+
+                <div class="projects__data">
+                  <span class="projects__number">01</span>
+                  <h3 class="projects__name">FrameLock</h3>
+                  <p class="projects__description">
+                    Cinematographic robot with real-time face detection and
+                    tracking. Built the OpenCV face detection and focal distance
+                    algorithm on a Raspberry Pi, and designed dual PID
+                    controllers for smooth, switchable subject tracking.
+                  </p>
+                </div>
+
+                <div class="blob-big"></div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <a
+                  href="https://github.com/AliDismail/2DOF-RobotFish"
+                  target="_blank"
+                  class="projects__link"
+                >
+                  <img
+                    src="assets/img/work-img-3.png"
+                    alt="Portfolio project preview"
+                    class="projects__img"
+                  />
+
+                  <div class="projects__arrow">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </a>
+
+                <div class="projects__data">
+                  <span class="projects__number">02</span>
+                  <h3 class="projects__name">2-DoF Biomimetic Robotic Fish</h3>
+                  <p class="projects__description">
+                    Led the team behind a biomimetic robotic fish, developing
+                    the reverse kinematics and encoder algorithms and applying
+                    them to a cascade PID motor controller for swimming motion.
+                  </p>
+                </div>
+
+                <div class="blob-big"></div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <a
+                  href="https://github.com/AliDismail/Control-Plus-Farm"
+                  target="_blank"
+                  class="projects__link"
+                >
+                  <img
+                    src="assets/img/work-img-2.png"
+                    alt="Portfolio project preview"
+                    class="projects__img"
+                  />
+
+                  <div class="projects__arrow">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </a>
+
+                <div class="projects__data">
+                  <span class="projects__number">03</span>
+                  <h3 class="projects__name">Control+Farm</h3>
+                  <p class="projects__description">
+                    Autonomous farming robot for seeding and watering crops. Led
+                    the project and programmed automated seeding, irrigation,
+                    and planting system to cut manual labor with IMU based
+                    stabiulity system.
+                  </p>
+                </div>
+
+                <div class="blob-big"></div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <a
+                  href="https://github.com/AliDismail/V12-Supercharged-Engine"
+                  target="_blank"
+                  class="projects__link"
+                >
+                  <img
+                    src="assets/img/work-img-5.png"
+                    alt="Portfolio project preview"
+                    class="projects__img"
+                  />
+
+                  <div class="projects__arrow">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </a>
+
+                <div class="projects__data">
+                  <span class="projects__number">04</span>
+                  <h3 class="projects__name">V12 Supercharged Engine</h3>
+                  <p class="projects__description">
+                    A standart V12 supercharged engine CAD model with stress
+                    analysis and simulation.
+                  </p>
+                </div>
+
+                <div class="blob-big"></div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <a
+                  href="https://github.com/AliDismail/ByteTracker"
+                  target="_blank"
+                  class="projects__link"
+                >
+                  <img
+                    src="assets/img/work-img-4.png"
+                    alt="Portfolio project preview"
+                    class="projects__img"
+                  />
+
+                  <div class="projects__arrow">
+                    <i class="ri-arrow-right-up-line"></i>
+                  </div>
+                </a>
+
+                <div class="projects__data">
+                  <span class="projects__number">05</span>
+                  <h3 class="projects__name">ByteTracker</h3>
+                  <p class="projects__description">
+                    ByteTracker is a full-stack website designed to help
+                    students at LAU Byblos easily report and retrieve lost
+                    items. Whether it’s a misplaced laptop or a forgotten
+                    textbook, ByteTracker makes it simple to log, search, and
+                    recover belongings through a user-friendly interface
+                    tailored to campus life.
+                  </p>
+                </div>
+
+                <div class="blob-big"></div>
+              </article>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE SECTION ====================-->
+      <section class="experience section" id="experience">
+        <h2 class="section__title">My <span>Experience</span></h2>
+
+        <div class="experience__container container grid">
+          <article class="experience__card experience-open">
+            <button class="experience__button">
+              <i class="ri-cpu-line experience__icon"></i>
+              <h3 class="experience__name">Robotics Intern, Camerabotics</h3>
+              <span class="experience__date">February 2026 – Aug 2026</span>
+
+              <div class="experience__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="experience__data">
+              <p class="experience__description">
+                Worked in embedded systems engineering at Camerabotics SARL,
+                Beirut, developing motor control firmware and communication
+                between custom hardware and a Raspberry Pi.
+              </p>
+
+              <ul class="experience__achievements">
+                <li>
+                  Designed a UART communication system between a daisy chain of
+                  custom STM32 PCBs and a Raspberry Pi
+                </li>
+                <li>
+                  Debugged and extended C++ motor control firmware on STM32,
+                  implementing position/velocity control, a low-level UART
+                  protocol, and a flash saving memory map
+                </li>
+                <li>
+                  Built a Python motor control API on the Raspberry Pi over the
+                  high-level UART protocol
+                </li>
+              </ul>
+
+              <div class="experience__links">
+                <a
+                  href="assets/pdf/CERTIFICATE OF INTERNSHIP COMPLETION scanned.pdf"
+                  target="_blank"
+                  class="experience__link"
+                >
+                  <i class="ri-file-text-line"></i>
+                  View Certificate
+                </a>
+
+                <!-- Add your LinkedIn post URL in the href below -->
+                <a
+                  href="https://lnkd.in/p/dWu-KxDx"
+                  target="_blank"
+                  class="experience__link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                  View LinkedIn Post
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience__card experience-close">
+            <button class="experience__button">
+              <i class="ri-team-line experience__icon"></i>
+              <h3 class="experience__name">
+                Lead Organizer & Instructor, LAU Robotics Summer Camp
+              </h3>
+              <span class="experience__date">Jul 2024, Jul 2025</span>
+
+              <div class="experience__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="experience__data">
+              <p class="experience__description">
+                Designed, delivered, and monitored robotics camp sessions for
+                LAU's summer camp program using Lego Spike Prime.
+              </p>
+
+              <ul class="experience__achievements">
+                <li>
+                  Designed, delivered and monitored robotics camp sessions for
+                  40+ students using Lego Spike Prime
+                </li>
+                <li>
+                  Coordinated camp logistics and managed a team of 4 instructors
+                  and 4 volunteers
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== EDUCATION SECTION ====================-->
+      <section class="education section" id="education">
+        <h2 class="section__title">
+          My <span>Education</span> & <span>Certification</span>
+        </h2>
+
+        <div class="education__container container grid">
+          <article class="education__card education-open">
+            <button class="education__button">
+              <i class="ri-graduation-cap-line education__icon"></i>
+              <h3 class="education__name">Lebanese American University</h3>
+
+              <div class="education__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="education__data">
+              <p class="education__description">
+                Bachelor of Engineering in Mechatronics Engineering, Byblos,
+                Lebanon. September 2023 to present, expected graduation May
+                2028.
+              </p>
+
+              <ul class="education__list">
+                <li class="education__item">Robotics & Control Systems</li>
+                <li class="education__item">Embedded Systems</li>
+                <li class="education__item">Automation</li>
+                <li class="education__item">Biomechatronics</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="education__card education-close">
+            <button class="education__button">
+              <i class="ri-book-line education__icon"></i>
+              <h3 class="education__name">Rafic Hariri High School</h3>
+
+              <div class="education__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="education__data">
+              <p class="education__description">
+                Lebanese Baccalaureate of General Science, Saida, Lebanon.
+                September 2020 to June 2023, graduated with distinction (16/20).
+              </p>
+
+              <ul class="education__list">
+                <li class="education__item">General Science</li>
+                <li class="education__item">Graduated with Distinction</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="education__card education-close">
+            <button class="education__button">
+              <i class="ri-award-line education__icon"></i>
+              <h3 class="education__name">Certifications</h3>
+
+              <div class="education__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="education__data">
+              <p class="education__description">
+                Coursera courses and specializations completed alongside my
+                degree, covering programming and robotics fundamentals.
+              </p>
+
+              <ul class="education__list">
+                <li class="education__item">
+                  Programming in C++: A Hands-on Introduction (Codio)
+                </li>
+                <li class="education__item">Arduino For Beginners (Packt)</li>
+                <li class="education__item">
+                  Designing Hardware for Raspberry Pi Projects (Johns Hopkins
+                  University)
+                </li>
+                <li class="education__item">
+                  Introduction to Programming with MATLAB (Vanderbilt
+                  University)
+                </li>
+                <li class="education__item">
+                  Robotics Specialization (University of Pennsylvania)
+                </li>
+                <li class="education__item">
+                  CSWA Certificate (Dassault Systemes)
+                </li>
+                <li class="education__item">
+                  Learning How to Learn: Powerful mental tools to help you
+                  master tough subjects (Deep Teaching Solutions)
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="education__card education-close">
+            <button class="education__button">
+              <i class="ri-medal-line education__icon"></i>
+              <h3 class="education__name">Awards & Achievements</h3>
+
+              <div class="education__arrow">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+            </button>
+
+            <div class="education__data">
+              <p class="education__description">
+                Competitive robotics and programming achievements from 2021 to
+                2023.
+              </p>
+
+              <ul class="education__list">
+                <li class="education__item">
+                  2x Middle East Champion, Do Your Bit Competition by BBC (2021,
+                  2022)
+                </li>
+                <li class="education__item">
+                  Best Programmer, Do Your Bit National Competition (2023)
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== SKILLS SECTION ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title"><span>My</span> Skills</h2>
+
+        <p class="skills__description">
+          My skills are those I've learned and developed over the years. By
+          studying, focusing, and being consistent in what I love most.
+        </p>
+
+        <div class="skills__container container grid">
+          <article class="skills__card">
+            <div class="skills__profession">
+              <i class="ri-code-s-slash-line skills__icon"></i>
+              <h2 class="skills__title">Programming</h2>
+            </div>
+
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  src="assets/img/c-plusplus.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">C++</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/c.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">C</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/java.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Java</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/matlab.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">MATLAB</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/python.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Python</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/git.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Git</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/github_dark.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">GitHub</span>
+              </li>
+            </ul>
+            <div class="blob-small"></div>
+          </article>
+
+          <article class="skills__card">
+            <div class="skills__profession">
+              <i class="ri-cpu-line skills__icon"></i>
+              <h2 class="skills__title">Robotics & Embedded</h2>
+            </div>
+
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  src="assets/img/arduino.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Arduino</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/STM32.png"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">STM32</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/raspberry_pi.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Raspberry Pi</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/NI.webp"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">MyRio</span>
+              </li>
+            </ul>
+            <div class="blob-small"></div>
+          </article>
+
+          <article class="skills__card">
+            <div class="skills__profession">
+              <i class="ri-tools-line skills__icon"></i>
+              <h2 class="skills__title">Tools & Systems</h2>
+            </div>
+
+            <ul class="skills__list">
+              <li class="skills__item">
+                <img
+                  src="assets/img/AutoCAD.png"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">AutoCAD</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/solidworks.jpg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">SolidWorks</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/national-instruments-labview.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">LabVIEW</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/microsoft-office.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Microsoft Office</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/linux.svg"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">Linux</span>
+              </li>
+
+              <li class="skills__item">
+                <img
+                  src="assets/img/ROS2.png"
+                  alt="Technical skills"
+                  class="skills__img"
+                />
+                <span class="skills__name">ROS2</span>
+              </li>
+            </ul>
+            <div class="blob-small"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ==================== TESTIMONIALS SECTION ==================== -->
+      <!-- <section class="testimonials section"></section> -->
+
+      <!-- ==================== CONTACT SECTION ==================== -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact <span>Me</span></h2>
+
+        <div class="contact__container container grid">
+          <!-- <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__group">
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                required
+                autocomplete="name"
+                class="contact__input"
+              />
+              <label for="mame" class="contact__label">Name</label>
+            </div>
+ 
+            <div class="contact__group">
+              <input
+                type="email"
+                id="email"
+                name="user_email"
+                required
+                autocomplete="email"
+                class="contact__input"
+              />
+              <label for="email" class="contact__label">Email</label>
+            </div>
+ 
+            <div class="contact__group">
+              <textarea
+                name="user_message"
+                id="message"
+                required
+                class="contact__input contact__area"
+              ></textarea>
+              <label for="message" class="contact__label">Message</label>
+            </div>
+ 
+            <button type="submit" class="contact__button button">
+              <span>Send Message</span>
+              <i class="ri-arrow-right-line"></i>
+            </button>
+            <p class="contact__message" id="contact-message"></p>
+          </form> -->
+
+          <div class="contact__content grid">
+            <a
+              href="https://www.linkedin.com/in/ali-d-ismail"
+              target="_blank"
+              class="contact__link"
+            >
+              <div class="contact__info">
+                <i class="ri-linkedin-box-line contact__icon"></i>
+
+                <div class="contact__text">
+                  <h3 class="contact__title">LinkedIn</h3>
+                  <address class="contact__address">Ali D Ismail</address>
+                </div>
+              </div>
+              <div class="contact__arrow">
+                <i class="ri-arrow-right-up-line"></i>
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/AliDismail"
+              target="_blank"
+              class="contact__link"
+            >
+              <div class="contact__info">
+                <i class="ri-github-line contact__icon"></i>
+
+                <div class="contact__text">
+                  <h3 class="contact__title">GitHub</h3>
+                  <address class="contact__address">AliDismail</address>
+                </div>
+              </div>
+              <div class="contact__arrow">
+                <i class="ri-arrow-right-up-line"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <h2 class="footer__title">
+          GOT A ROBOT IN MIND? LET'S BRING IT TO LIFE
+        </h2>
+
+        <div class="footer__content">
+          <ul class="footer__links">
+            <li>
+              <a href="#projects" class="footer__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#experience" class="footer__link">Experience</a>
+            </li>
+
+            <li>
+              <a href="#education" class="footer__link">
+                Education & Certification
+              </a>
+            </li>
+
+            <li>
+              <a href="#skills" class="footer__link">Skills</a>
+            </li>
+          </ul>
+
+          <ul class="footer__social">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ali-d-ismail"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/AliDismail"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <small class="footer__copy"> made with care and a lot of youtube</small>
+
+      <div class="blob-big"></div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+    <!--=============== TYPED JS - Insert link for text animations ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+
+    <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS - Insert link to send emails ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
