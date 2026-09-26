@@ -539,6 +539,14 @@ img {
   width: 100%;
 }
 
+.about__description span {
+  color: var(--first-color);
+}
+
+.about__description a {
+  color: var(--first-color);
+}
+
 /*=============== PROJECTS SECTION ===============*/
 
 .projects__card {
