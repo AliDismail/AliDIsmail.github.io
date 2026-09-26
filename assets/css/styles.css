@@ -1484,6 +1484,15 @@ img {
   .scrollup {
     right: 3rem;
   }
+
+  .education__item,
+  .experience__link,
+  .projects__linkedIn {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
 }
 
 /* For 2K resolutions <> */
