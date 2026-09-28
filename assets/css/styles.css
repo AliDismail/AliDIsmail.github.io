@@ -477,6 +477,10 @@ img {
   justify-self: center;
 }
 
+.home__cv {
+  margin-top: 2rem;
+}
+
 /* Circular text animation */
 
 @keyframes rotate-text {
